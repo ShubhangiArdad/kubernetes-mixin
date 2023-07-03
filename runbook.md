@@ -147,7 +147,7 @@ This page collects this repositories alerts and begins the process of describing
 + *Severity*: warning
 ##### Alert Name: "KubeClientCertificateExpiration"
 + *Message*: `A client certificate used to authenticate to the apiserver is expiring in less than 1 day.`
-+ *Severity*: critical
++ *Severity*: warning
 ##### Alert Name: "KubeAPITerminatedRequests"
 + *Message*: `The apiserver has terminated {{ $value | humanizePercentage }} of its incoming requests.`
 + *Severity*: warning
